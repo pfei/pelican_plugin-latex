@@ -77,7 +77,8 @@ this plugin works with a template, look at
 from pelican import signals
 
 latexScript = """
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+    <script async
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
        MathJax.Hub.Config({
            config: ["MMLorHTML.js"],
            jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
